@@ -1,5 +1,5 @@
-#my-portfolio
+# my-portfolio
 
-all my latest projects in one place 
+All my latest projects in one place 
 
 
