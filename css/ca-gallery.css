@@ -94,6 +94,10 @@ body {
 	align-items: center;
 	justify-content: space-around;
 }
+.offcanvas-aside h4 {
+	padding-left: 15px;
+}
+
 .offcanvas-aside img {
 	border-radius: 50%;
 }

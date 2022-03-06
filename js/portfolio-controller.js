@@ -4,7 +4,6 @@ function onInit() {
 
 function renderPortfolio() {
 	var projs = getProjsForDisplay();
-    console.log(projs);
 	var strHtmls = projs.map(function (proj, idx) {
 		return `
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -28,7 +27,6 @@ function renderPortfolio() {
 
 function onShowModal(projId) {
 	var proj = getProjById(projId);
-	console.log(proj.techStack);
 	var strHtml =
 		`<h2>${proj.name}</h2>
     <p class="item-intro text-muted">${proj.title}</p>
