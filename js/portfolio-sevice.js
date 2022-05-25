@@ -83,7 +83,7 @@ function _createProjs() {
 
 		_createProj(
 			'1',
-			'MyPlaces',
+			'Myplaces',
 			'View most known places',
 			'On this app, users can view all places added by users ' +
 				'and add new places with their images after authentication. ' +
