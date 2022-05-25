@@ -80,8 +80,34 @@ function _createProjs() {
 		// 	['Matrixes', 'keyboard events'],
 		// 	''
 		// ),
+
 		_createProj(
 			'1',
+			'MyPlaces',
+			'View most known places',
+			'On this app, users can view all places added by users ' +
+				'and add new places with their images after authentication. ' +
+				'only authenticated user can upload images, update exiting ' +
+				'places or delete them. all places can be seen over embedded ' +
+				'google Map',
+			[
+				'Front: React-redux, useContext, hooks',
+				'Style: css',
+				'Backend: Node.js, Express',
+				'DB: Mongoose',
+				'App host: Heroku'
+			],
+			[
+				'user authentication, authorization',
+				'file upload',
+				'use google geolocation api',
+				'using redux, useContext, hooks',
+				'responsive web design'
+			],
+			'https://placesss.herokuapp.com'
+		),
+		_createProj(
+			'2',
 			'Photogram',
 			'An instagram-like App',
 			'On this social media app, users can engage with one another ' +
@@ -105,7 +131,7 @@ function _createProjs() {
 			'https://photogrammmmm.herokuapp.com/'
 		),
 		_createProj(
-			'2',
+			'3',
 			'AllIneed',
 			'All your favorites in one place',
 			'This app incorporates 3 apps in one place: ' +
@@ -140,6 +166,7 @@ function _createProjs() {
 			],
 			[
 				'use google calender api',
+				'use google books api',
 				'collaborate via email or whatsup',
 				'pagination',
 				'responsive web design'
@@ -147,7 +174,7 @@ function _createProjs() {
 			'https://gil1103.github.io/AllIneed/'
 		),
 		_createProj(
-			'3',
+			'4',
 			'Food-Order-App',
 			'Online food ordering app',
 			'Allow users order they favorite dishes from the resturant ' +
@@ -162,7 +189,7 @@ function _createProjs() {
 			'https://gil1103.github.io/food-order-app/'
 		),
 		_createProj(
-			'4',
+			'5',
 			'Watchlist',
 			'Arrange your watchlist',
 			'In this app one can search his favorite movies and add/remove from his watchlist',
@@ -180,7 +207,7 @@ function _createProjs() {
 			'https://gil1103.github.io/watchlist/'
 		),
 		_createProj(
-			'5',
+			'6',
 			'Shopping-Cart',
 			'My shopping cart',
 			'Build your favorite shopping-cart',
@@ -198,7 +225,7 @@ function _createProjs() {
 			'https://gil1103.github.io/shopping-cart/'
 		),
 		_createProj(
-			'6',
+			'7',
 			'Meetups',
 			'Best meetups places',
 			'Find your prefered meetup place and add some of your own',
@@ -212,7 +239,7 @@ function _createProjs() {
 			'https://meetups-nextjs-psi.vercel.app/'
 		),
 		_createProj(
-			'7',
+			'8',
 			'Expenses-Chart',
 			'Manage your yearly expenses',
 			'A visual way to see all your expenses by month/year',
@@ -221,7 +248,7 @@ function _createProjs() {
 			'https://gil1103.github.io/expenses-chart/'
 		),
 		_createProj(
-			'8',
+			'9',
 			'Quotes',
 			'Best quotes ever',
 			'Get inspired by some famous quotes, read other users comments and add your owns',
@@ -234,7 +261,7 @@ function _createProjs() {
 			'https://react-http-99f38.web.app/quotes'
 		),
 		_createProj(
-			'9',
+			'10',
 			'Minesweeper',
 			'Will you find all mines?',
 			'The objective of the game is to clear a rectangular board containing hidden ' +
